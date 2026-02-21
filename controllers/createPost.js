@@ -1,6 +1,6 @@
-import { createPost, createComment } from "../model/postSchema.js";
+import { createPost } from "../model/postSchema.js";
 import { cache } from "../cache/memoryCache.js";
-import { readPosts } from "../config/fileOperations.js";
+import { readPosts, writePosts } from "../config/fileOperations.js";
 
 // Create Post
 export function createPostController(req, res) {

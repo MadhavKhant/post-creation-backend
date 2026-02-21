@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "id": "1176b06e-cd39-4adb-a969-ff29db55cc37",
+    "userId": "user123",
+    "content": "Hello this is my first post",
+    "createdAt": 1771683695202,
+    "likes": [
+      "user123"
+    ],
+    "comments": [],
+    "shares": 0
+  }
+]
